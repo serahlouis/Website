@@ -425,4 +425,25 @@ form .btn2 {
     margin: 0 auto;
 }
 
+
+    /* Add this code at the end of your style.css file */
+
+/* Adjust header text margin for smaller screens */
+.header-text {
+    margin-top: 30%;
+    text-align: center; /* Center text */
+}
+
+/* Adjust other image position for smaller screens */
+#header1 {
+    background-image: none; /* Remove background image */
+}
+
+/* Center other image */
+.center {
+    display: block;
+    margin: 20px auto; /* Center horizontally */
+}
+
+
 }

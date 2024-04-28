@@ -398,4 +398,31 @@ form .btn2 {
     margin: 10px 0;
     font-size: 16px; /* Adjust font size */
 }
+    /* Add this code at the end of your style.css file */
+
+/* Hide feather.jpg image on small screens */
+.center {
+    display: none;
+}
+
+/* Adjust header text margin for smaller screens */
+.header-text {
+    margin-top: 30%;
+}
+
+/* Adjust other image position for smaller screens */
+#header1 {
+    background-image: url(Images/PHOTO_MAIN.jpg); /* Adjust background image as needed */
+    background-size: cover; /* Adjust background size as needed */
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: auto; /* Auto height based on content */
+}
+
+/* Center other image */
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
 }

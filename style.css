@@ -457,7 +457,7 @@ form .btn2 {
 /* Hide PHOTO_MAIN.jpg image on desktop version */
 @media only screen and (min-width: 601px) {
     .center {
-        display: none;
+        display: none !important; /* Important to ensure it overrides other styles */
     }
 }
 
@@ -466,5 +466,6 @@ form .btn2 {
     background-image: none; /* Remove background image */
     background-color: #ffffff; /* Set background color to white */
 }
+
 
 }

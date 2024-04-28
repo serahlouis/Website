@@ -444,6 +444,27 @@ form .btn2 {
     display: block;
     margin: 20px auto; /* Center horizontally */
 }
+/* Add this code at the end of your style.css file */
 
+/* Center h1 text in phone version */
+@media only screen and (max-width: 600px) {
+    .header-text {
+        margin-top: 30%;
+        text-align: center;
+    }
+}
+
+/* Hide PHOTO_MAIN.jpg image on desktop version */
+@media only screen and (min-width: 601px) {
+    .center {
+        display: none;
+    }
+}
+
+/* Prevent background spillover */
+#header1 {
+    background-image: none; /* Remove background image */
+    background-color: #ffffff; /* Set background color to white */
+}
 
 }

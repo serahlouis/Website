@@ -341,20 +341,25 @@ nav .fa-solid{
         cursor: pointer;
     }
 
-    /* Default styles for the logo image */
-.logo {
-    max-width: 100%; /* Ensure the image doesn't exceed its container */
-    height: auto; /* Maintain aspect ratio */
-}
-
-/* Media query for smaller screen sizes (e.g., mobile devices) */
-@media only screen and (max-width: 600px) {
-    /* Adjust the layout for smaller screens */
-    .logo {
-        display: block; /* Display the image as a block element */
-        margin: 0 auto; /* Center the image horizontally */
-        /* Add any additional styling as needed */
+    /* Default styles for the logo image and container */
+    .logo-container {
+        max-width: 100%; /* Set a maximum width for the container */
+        overflow: hidden; /* Hide any overflow content */
+        text-align: center; /* Center the content horizontally */
     }
-}
+    
+    .logo {
+        max-width: 100%; /* Ensure the image doesn't exceed its container */
+        height: auto; /* Maintain aspect ratio */
+    }
+    
+    /* Media query for smaller screen sizes (e.g., mobile devices) */
+    @media only screen and (max-width: 600px) {
+        /* Adjust the layout for smaller screens */
+        .logo-container {
+            width: 100%; /* Ensure the container takes full width */
+        }
+    }
+
     
 }

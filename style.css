@@ -399,7 +399,9 @@ nav .fa-solid{
         height: auto; /* Maintain aspect ratio */
     }
 
-
+    .text-content p {
+        font-size: 16px; /* Smaller font size for mobile screens */
+    }
 
 
     

@@ -21,19 +21,6 @@ body{
 #header1 {
     width: 100%;
     height: 100vh;
-    background-image: url(Images/PHOTO_MAIN.jpg);
-    background-size: contain; /* Ensure the background image covers the entire container */
-    background-repeat: no-repeat;
-    background-position: center right; /* Default position for desktop */
-
-    /* Add styles specific to mobile devices */
-}
-
-/* Media query for mobile devices */
-@media only screen and (max-width: 600px) {
-    #header1 {
-        background-position: bottom center; /* Set background position to bottom center for mobile */
-    }
 }
 
 .container{

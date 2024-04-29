@@ -339,7 +339,6 @@ nav .fa-solid{
     }
 .content-container {
     display: flex;
-    flex-direction: row; /* Display content side by side */
     align-items: center; /* Center items vertically */
 }
 

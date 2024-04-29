@@ -402,6 +402,9 @@ nav .fa-solid{
     .text-content p {
         font-size: 16px; /* Smaller font size for mobile screens */
     }
+     p, .text-content p {
+        font-size: 14px; /* Smaller font size for paragraph text on mobile screens */
+    }
 
 
     

@@ -295,6 +295,37 @@ nav .fa-solid{
     display: none;
 }
 
+.image-container-full{
+    display: grid;
+    align-items: right; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+.intro-content {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    margin-top: 20px; /* Add margin to separate image from text */
+}
+
+.text-content {
+    flex: 1; /* Take remaining space */
+    max-width: 60%; /* Limit text width */
+}
+
+.image-container {
+    flex-shrink: 0; /* Do not shrink */
+    margin-top: -465px;
+    width: 40%; /* Set image container width */
+    max-width: 400px; /* Increase max width of the image container */
+    margin-left:  650px; /* Adjust spacing between text and image */
+}
+
+.center {
+    width: 100%; /* Ensure image width adjusts */
+    height: auto; /* Allow image height to adjust */
+    max-width: 100%; /* Limit max width of the image */
+}
+
 @media only screen and (max-width: 600px){
 
     .header-text{
@@ -344,9 +375,9 @@ nav .fa-solid{
     padding-right: 50px; /* Add spacing between text and image */
 }
 
-.image-container {
-    flex-shrink: 0; /* Prevent image from shrinking */
-}
+
+
+
 
 
     

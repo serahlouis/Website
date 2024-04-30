@@ -378,11 +378,11 @@ nav .fa-solid{
 
     /* Adjust font sizes for better readability on smaller screens */
     span {
-        font-size: 10px; /* 6% of viewport width */
+        font-size: 20vw; /* 6% of viewport width */
     }
 
     p {
-        font-size: 3vw; /* 3% of viewport width */
+        font-size: 10vw; /* 3% of viewport width */
     }
    .intro-content {
         display: flex;

@@ -391,7 +391,8 @@ nav .fa-solid{
     }
 
     .image-container {
-        margin-top: 20px; /* Add spacing between text and image */
+        margin-top: 10px; /* Reduce top margin for closer proximity to text */
+        margin-bottom: 20px; /* Add some bottom margin for spacing */
         order: 1; /* Move the image below the text */
     }
 

@@ -377,7 +377,7 @@ nav .fa-solid{
     }
 
     /* Adjust font sizes for better readability on smaller screens */
-    h1 {
+    span {
         font-size: 10px; /* 6% of viewport width */
     }
 

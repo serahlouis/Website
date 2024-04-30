@@ -396,11 +396,8 @@ nav .fa-solid{
         order: 1; /* Move the image below the text */
     }
 
-    .text-content p {
-        font-size: 16px; /* Smaller font size for mobile screens */
-    }
-     p, .text-content p {
-        font-size: 14px; /* Smaller font size for paragraph text on mobile screens */
+    .text-content {
+        text-align: center; /* Center the text horizontally */
     }
 
 

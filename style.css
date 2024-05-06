@@ -314,19 +314,20 @@ nav .fa-solid{
 
 .intro-content {
     display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center items horizontally */
     flex-wrap: wrap; /* Allow items to wrap */
-    align-items: center; /* Align items to the center */
     margin-top: 20px; /* Add margin to separate image from text */
     text-align: justify; /* Text alignment */
 }
 
 .text-content {
-    flex: 1; /* Take remaining space */
-    max-width: 60%; /* Limit text width */
+    flex-basis: 60%; /* Set initial width for text content */
+    margin-right: 20px; /* Add space between text and image */
 }
 
 .image-container {
-    flex: 1; /* Take remaining space */
+    flex-basis: 40%; /* Set initial width for image container */
     text-align: center; /* Center the image horizontally */
     margin-top: 20px; /* Adjust margin to create space between text and image */
 }
@@ -400,10 +401,10 @@ nav .fa-solid{
         left: 25px;
         cursor: pointer;
     }
-.content-container {
-    display: flex;
-    align-items: center; /* Center items vertically */
-}
+    .content-container {
+        display: flex;
+        align-items: center; /* Center items vertically */
+    }
 
     /* Adjust container width and other styles */
     .container {
@@ -419,8 +420,15 @@ nav .fa-solid{
     p {
         font-size: 10vw; /* 3% of viewport width */
     }
+    .intro-content {
+        flex-direction: column; /* Stack items vertically */
+        text-align: center; /* Center text content */
+    }
+
+    .text-content,
     .image-container {
-        margin-top: 10px; /* Adjust margin for smaller screens */
+        flex-basis: 100%; /* Set full width for both text and image containers */
+        margin: 10px 0; /* Add margin for spacing */
     }
     
 }

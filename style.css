@@ -66,13 +66,12 @@ nav ul li a:hover::after{
     width: 100%;
 }
 
-.header-text{
+.header-text {
     width: 100%;
     margin-top: 5%;
-    font-size: 15px; 
-    text-align: justify; 
+    font-size: 15px;
+    text-align: left; /* Left justify for desktop */
     line-break: strict;
-
 }
 
 .header-text p span{
@@ -309,9 +308,9 @@ nav .fa-solid{
 @media only screen and (max-width: 600px){
 
     .header-text {
-        font-size: 14px; /* Adjust the font size for the main text */
-        line-height: 1.6; /* Increase line height for better readability */
-        text-align: justify;
+        text-align: center; /* Center the text on small screens */
+        margin: 5% auto; /* Center vertically */
+        padding: 0 10px; /* Add padding for better visibility */
     }
 
     .header-text h1 {

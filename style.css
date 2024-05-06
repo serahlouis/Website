@@ -329,23 +329,31 @@ nav .fa-solid{
 @media only screen and (max-width: 600px){
 
     .header-text {
-        font-size: 12px; /* Adjust the font size as needed */
+        font-size: 14px; /* Adjust the font size for the main text */
+        line-height: 1.6; /* Increase line height for better readability */
         text-align: justify;
     }
 
     .header-text h1 {
-        font-size: 30px; /* Adjust the font size as needed */
-        margin-top: 20px;
+        font-size: 36px; /* Increase the font size of the heading */
+        margin-top: 30px; /* Add more top margin */
     }
 
     .header-text p span {
-        font-size: 20px; /* Adjust the font size as needed */
-        width: auto; /* Remove fixed width */
-        margin-top: 5%;
+        font-size: 18px; /* Adjust the font size of span */
+        margin-top: 10px; /* Adjust margin */
     }
 
     .header-text p {
-        font-size: 12px; /* Adjust the font size as needed */
+        font-size: 14px; /* Adjust font size of paragraphs */
+        margin-top: 10px; /* Adjust margin */
+    }
+
+    /* Adjustments for other sections as needed */
+
+    /* Optional: Reduce padding or margins for tighter spacing */
+    .container {
+        padding: 10px 5%; /* Adjust as needed */
     }
     nav .fa-solid{
         display: block;

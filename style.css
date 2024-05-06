@@ -307,7 +307,7 @@ nav .fa-solid{
 }
 @media only screen and (max-width: 600px){
 
-    .header-text {
+   .header-text {
         text-align: center; /* Center the text on small screens */
         margin: 5% auto; /* Center vertically */
         padding: 0 10px; /* Add padding for better visibility */
@@ -318,6 +318,23 @@ nav .fa-solid{
         flex-direction: column; /* Stack items vertically */
         align-items: center; /* Center items horizontally */
         text-align: center; /* Center text content */
+    }
+        .text-content {
+        flex-basis: 100%; /* Set full width for the text content */
+        margin: 10px 0; /* Add margin for spacing */
+    }
+
+    .image-container {
+        flex-basis: 30%; /* Adjust as needed */
+        text-align: center; /* Center the image horizontally */
+        margin-top: 20px; /* Adjust margin to create space between text and image */
+    }
+
+    .image-container img {
+        max-width: 100%; /* Ensure the image does not exceed its container */
+        height: auto; /* Maintain aspect ratio */
+        display: inline-block; /* Remove any default inline spacing */
+        margin: 0 auto; /* Center the image horizontally */
     }
 
     .header-text h1 {
@@ -387,16 +404,5 @@ nav .fa-solid{
     p {
         font-size: 10vw; /* 3% of viewport width */
     }
-    .text-content,
-    .image-container {
-        flex-basis: 100%; /* Set full width for both text and image containers */
-        margin: 10px 0; /* Add margin for spacing */
-    }
 
-    .image-container img {
-        max-width: 100%; /* Ensure the image does not exceed its container */
-        height: auto; /* Maintain aspect ratio */
-        display: block; /* Remove any default inline spacing */
-        margin: 0 auto; /* Center the image horizontally */
-    }
 }

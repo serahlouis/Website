@@ -324,18 +324,6 @@ nav .fa-solid{
         margin: 10px 0; /* Add margin for spacing */
     }
 
-    .image-container {
-        flex-basis: 30%; /* Adjust as needed */
-        text-align: center; /* Center the image horizontally */
-        margin-top: 20px; /* Adjust margin to create space between text and image */
-    }
-
-    .image-container img {
-        max-width: 100%; /* Ensure the image does not exceed its container */
-        height: auto; /* Maintain aspect ratio */
-        display: inline-block; /* Remove any default inline spacing */
-        margin: 0 auto; /* Center the image horizontally */
-    }
 
     .header-text h1 {
         font-size: 36px; /* Increase the font size of the heading */

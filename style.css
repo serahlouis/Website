@@ -366,10 +366,6 @@ nav .fa-solid{
     align-items: center; /* Center items vertically */
 }
 
-.text-content {
-    flex: 1; /* Allow text content to grow */
-    padding-right: 50px; /* Add spacing between text and image */
-}
     /* Adjust container width and other styles */
     .container {
         width: 100%;

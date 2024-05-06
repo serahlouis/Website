@@ -381,22 +381,15 @@ nav .fa-solid{
     p {
         font-size: 10vw; /* 3% of viewport width */
     }
-      .intro-content {
-            flex-direction: column; /* Stack items vertically */
-            text-align: center; /* Center text content */
-        }
-    
-        .text-content,
-        .image-container {
-            flex-basis: 100%; /* Set full width for both text and image containers */
-            margin: 10px 0; /* Add margin for spacing */
-        }
-    
-        .image-container img {
-            max-width: 100%; /* Ensure the image does not exceed its container */
-            height: auto; /* Maintain aspect ratio */
-            display: block; /* Remove any default inline spacing */
-            margin: 0 auto; /* Center the image horizontally */
-        }
+    .image-container {
+        margin-top: 10px; /* Reduce top margin */
+    }
+
+    .image-container img {
+        max-width: 100%; /* Ensure the image does not exceed its container */
+        height: auto; /* Maintain aspect ratio */
+        display: block; /* Remove any default inline spacing */
+        margin: 0 auto; /* Center the image horizontally */
+    }
     
 }

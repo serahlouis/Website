@@ -416,11 +416,5 @@ nav .fa-solid{
         height: auto; /* Maintain aspect ratio */
         display: block; /* Remove any default inline spacing */
     }
-
-    .text-content {
-        text-align: center; /* Center the text horizontally */
-    }
-
-
     
 }

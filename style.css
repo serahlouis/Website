@@ -406,10 +406,15 @@ nav .fa-solid{
         margin-bottom: 20px; /* Add bottom margin for spacing */
         max-width: 100%; /* Ensure the image does not overflow its container */
         text-align: center; /* Center the image horizontally */
+        width: 100%; /* Make sure the image takes up the full width */
+        margin-left: auto; /* Center the image horizontally */
+        margin-right: auto; /* Center the image horizontally */
     }
 
     .image-container img {
-        width: 100%; /* Make the image responsive within its container */
+        max-width: 100%; /* Make sure the image does not exceed its container */
+        height: auto; /* Maintain aspect ratio */
+        display: block; /* Remove any default inline spacing */
     }
 
     .text-content {

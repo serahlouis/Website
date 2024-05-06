@@ -401,16 +401,15 @@ nav .fa-solid{
     p {
         font-size: 10vw; /* 3% of viewport width */
     }
-   .intro-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .image-container {
+        margin-top: 20px; /* Adjust margin to create space between text and image */
+        margin-bottom: 20px; /* Add bottom margin for spacing */
+        max-width: 100%; /* Ensure the image does not overflow its container */
+        text-align: center; /* Center the image horizontally */
     }
 
-    .image-container {
-        margin-top: 30px; /* Reduce top margin for closer proximity to text */
-        margin-bottom: 20px; /* Add some bottom margin for spacing */
-        order: 1; /* Move the image below the text */
+    .image-container img {
+        width: 100%; /* Make the image responsive within its container */
     }
 
     .text-content {

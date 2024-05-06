@@ -307,7 +307,7 @@ nav .fa-solid{
 }
 @media only screen and (max-width: 600px){
 
-   .header-text {
+    .header-text {
         text-align: center; /* Center the text on small screens */
         margin: 5% auto; /* Center vertically */
         padding: 0 10px; /* Add padding for better visibility */
@@ -319,15 +319,27 @@ nav .fa-solid{
         align-items: center; /* Center items horizontally */
         text-align: center; /* Center text content */
     }
-        .text-content {
+
+    .text-content {
         flex-basis: 100%; /* Set full width for the text content */
         margin: 10px 0; /* Add margin for spacing */
     }
 
+    .image-container {
+        flex-basis: 30%; /* Adjust as needed */
+        text-align: center; /* Center the image horizontally */
+        margin-top: 20px; /* Adjust margin to create space between text and image */
+    }
 
-    .header-text h1 {
-        font-size: 36px; /* Increase the font size of the heading */
-        margin-top: 30px; /* Add more top margin */
+    .image-container img {
+        max-width: 100%; /* Ensure the image does not exceed its container */
+        height: auto; /* Maintain aspect ratio */
+        display: inline-block; /* Remove any default inline spacing */
+        margin: 0 auto; /* Center the image horizontally */
+    }
+
+    .intro-text {
+        text-align: justify; /* Keep the text justified on mobile */
     }
 
     .header-text p span {

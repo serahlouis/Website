@@ -301,11 +301,6 @@ nav .fa-solid{
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px;
 }
-.intro-content {
-    display: flex;
-    align-items: flex-start; /* Align items to the top */
-    margin-top: 20px; /* Add margin to separate image from text */
-}
 
 .text-content {
     flex: 1; /* Take remaining space */
@@ -324,6 +319,7 @@ nav .fa-solid{
 .text-content {
     flex-basis: 60%; /* Set initial width for text content */
     margin-right: 20px; /* Add space between text and image */
+    text-align: center; /* Center text content */
 }
 
 .image-container {
@@ -337,12 +333,6 @@ nav .fa-solid{
     height: auto; /* Maintain aspect ratio */
     display: block; /* Remove any default inline spacing */
     margin: 0 auto; /* Center the image horizontally */
-}
-
-.center {
-    width: 100%; /* Ensure image width adjusts */
-    height: auto; /* Allow image height to adjust */
-    max-width: 100%; /* Limit max width of the image */
 }
 
 @media only screen and (max-width: 600px){
@@ -422,7 +412,6 @@ nav .fa-solid{
     }
     .intro-content {
         flex-direction: column; /* Stack items vertically */
-        text-align: center; /* Center text content */
     }
 
     .text-content,

@@ -407,8 +407,7 @@ nav .fa-solid{
         max-width: 100%; /* Ensure the image does not overflow its container */
         text-align: center; /* Center the image horizontally */
         width: 100%; /* Make sure the image takes up the full width */
-        margin-left: auto; /* Center the image horizontally */
-        margin-right: auto; /* Center the image horizontally */
+        margin: 20px auto; /* Center the image horizontally and add top/bottom margin */
     }
 
     .image-container img {

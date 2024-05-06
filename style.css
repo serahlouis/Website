@@ -312,12 +312,30 @@ nav .fa-solid{
     max-width: 60%; /* Limit text width */
 }
 
+.intro-content {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    align-items: center; /* Align items to the center */
+    margin-top: 20px; /* Add margin to separate image from text */
+    text-align: justify; /* Text alignment */
+}
+
+.text-content {
+    flex: 1; /* Take remaining space */
+    max-width: 60%; /* Limit text width */
+}
+
 .image-container {
-    flex-shrink: 0; /* Do not shrink */
-    margin-top: -465px;
-    width: 40%; /* Set image container width */
-    max-width: 400px; /* Increase max width of the image container */
-    margin-left:  650px; /* Adjust spacing between text and image */
+    flex: 1; /* Take remaining space */
+    text-align: center; /* Center the image horizontally */
+    margin-top: 20px; /* Adjust margin to create space between text and image */
+}
+
+.image-container img {
+    max-width: 100%; /* Make sure the image does not exceed its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any default inline spacing */
+    margin: 0 auto; /* Center the image horizontally */
 }
 
 .center {
@@ -402,18 +420,7 @@ nav .fa-solid{
         font-size: 10vw; /* 3% of viewport width */
     }
     .image-container {
-        margin-top: 20px; /* Adjust margin to create space between text and image */
-        margin-bottom: 20px; /* Add bottom margin for spacing */
-        max-width: 100%; /* Ensure the image does not overflow its container */
-        text-align: center; /* Center the image horizontally */
-        width: 100%; /* Make sure the image takes up the full width */
-        margin: 20px auto; /* Center the image horizontally and add top/bottom margin */
-    }
-
-    .image-container img {
-        max-width: 100%; /* Make sure the image does not exceed its container */
-        height: auto; /* Maintain aspect ratio */
-        display: block; /* Remove any default inline spacing */
+        margin-top: 10px; /* Adjust margin for smaller screens */
     }
     
 }

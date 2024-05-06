@@ -339,7 +339,7 @@ nav .fa-solid{
     }
 
     .intro-text {
-        text-align: justify; /* Keep the text justified on mobile */
+        text-align: center; /* Keep the text justified on mobile */
     }
 
     .header-text p span {

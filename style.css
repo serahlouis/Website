@@ -329,10 +329,23 @@ nav .fa-solid{
 @media only screen and (max-width: 600px){
 
     .header-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 100vh;
+        font-size: 12px; /* Adjust the font size as needed */
+        text-align: justify;
+    }
+
+    .header-text h1 {
+        font-size: 30px; /* Adjust the font size as needed */
+        margin-top: 20px;
+    }
+
+    .header-text p span {
+        font-size: 20px; /* Adjust the font size as needed */
+        width: auto; /* Remove fixed width */
+        margin-top: 5%;
+    }
+
+    .header-text p {
+        font-size: 12px; /* Adjust the font size as needed */
     }
     nav .fa-solid{
         display: block;

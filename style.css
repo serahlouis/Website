@@ -309,9 +309,9 @@ nav .fa-solid{
 
 .intro-content {
     display: flex;
-    align-items: center; /* Align items vertically */
-    justify-content: center; /* Center items horizontally */
     flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
     margin-top: 20px; /* Add margin to separate image from text */
     text-align: justify; /* Text alignment */
 }
@@ -319,7 +319,7 @@ nav .fa-solid{
 .text-content {
     flex-basis: 60%; /* Set initial width for text content */
     margin-right: 20px; /* Add space between text and image */
-    text-align: center; /* Center text content */
+    text-align: justify; /* Center text content */
 }
 
 .image-container {

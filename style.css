@@ -313,6 +313,13 @@ nav .fa-solid{
         padding: 0 10px; /* Add padding for better visibility */
     }
 
+    .intro-content {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+        text-align: center; /* Center text content */
+    }
+
     .header-text h1 {
         font-size: 36px; /* Increase the font size of the heading */
         margin-top: 30px; /* Add more top margin */
@@ -380,8 +387,10 @@ nav .fa-solid{
     p {
         font-size: 10vw; /* 3% of viewport width */
     }
+    .text-content,
     .image-container {
-        margin-top: 10px; /* Reduce top margin */
+        flex-basis: 100%; /* Set full width for both text and image containers */
+        margin: 10px 0; /* Add margin for spacing */
     }
 
     .image-container img {
@@ -390,5 +399,4 @@ nav .fa-solid{
         display: block; /* Remove any default inline spacing */
         margin: 0 auto; /* Center the image horizontally */
     }
-    
 }

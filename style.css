@@ -397,20 +397,20 @@ nav .fa-solid{
         align-items: center; /* Center items vertically */
     }
 
-    /* Adjust container width and other styles 
+     Adjust container width and other styles 
     .container {
         width: 100%;
         padding: 0 10px; 
-    }*/
+    }
 
-    /* Adjust font sizes for better readability on smaller screens */
-    /*span {
+   
+    span {
         font-size: 20vw; 
     }
 
     p {
         font-size: 10vw; 
-    } */
+    } 
         
 
 }

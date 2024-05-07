@@ -309,7 +309,7 @@ nav .fa-solid{
 
 
     .header-textp{
-        text-align: justify; /* Center the text on small screens */
+        text-align: center; /* Center the text on small screens */
         margin: 5% auto; /* Center vertically */
         padding: 0 10px; /* Add padding for better visibility */
         width: 100%;

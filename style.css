@@ -329,7 +329,7 @@ nav .fa-solid{
 @media only screen and (max-width: 600px){
 
 
-.intro-content {
+  .intro-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -341,16 +341,15 @@ nav .fa-solid{
     width: 80%; /* Adjust as needed */
     max-width: 600px; /* Limit text width */
     padding-right: 20px;
-    margin: auto; /* Center horizontally */
+    margin: 0 auto; /* Center horizontally */
   }
 
   .image-container {
     margin-top: 20px; /* Add spacing between text and image */
-  }
-
-  /* Adjust for smaller screen text alignment */
-  .text-content p {
-    text-align: justify;
+    width: 80%; /* Adjust as needed */
+    max-width: 300px; /* Limit image width */
+    margin-left: auto; /* Align to right */
+    margin-right: auto; /* Align to left */
   }
   .header-text {
     text-align: center; /* Center-align the entire text block */

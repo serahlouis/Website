@@ -321,13 +321,17 @@ nav .fa-solid{
 .header-text h1 {
     font-size: 30px;
     text-align: center;
-    line-height: 1.5; /* Adjust line height as needed */
+    line-height: 1.5;
 }
 
 .header-text h1 span {
-    display: inline-block;
-    margin: 0 5px;
     font-size: 50px;
+}
+
+.header-text h1 span::after {
+    content: ",";
+    display: inline-block;
+    margin: 0 5px; /* Adjust as needed */
 }
 
 .header-text p {

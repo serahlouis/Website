@@ -352,6 +352,12 @@ nav .fa-solid{
     .header-text p span {
     text-align: center; /* Center align the span */
     }
+    .center {
+        /* Add any specific styles for non-mobile screens here if needed */
+        /* For example, you can reset margins to keep the image aligned left */
+        margin-left: 0;
+        margin-right: 0;
+    }
 
   .intro-content {
     display: flex;

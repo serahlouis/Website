@@ -70,7 +70,7 @@ nav ul li a:hover::after{
     width: 100%;
     margin-top: 5%;
     font-size: 15px;
-    text-align: center; /* Center align by default */
+    text-align: left; /* Center align by default */
     line-break: strict;
 }
 
@@ -90,7 +90,7 @@ nav ul li a:hover::after{
 }
 .header-text p {
     font-size: 15px; /* Adjust font size */
-    text-align: center; /* Center-align the paragraph */
+    text-align: left; /* Center-align the paragraph */
 }
 
 .header-text p span{
@@ -339,11 +339,11 @@ nav .fa-solid{
 
 @media only screen and (max-width: 600px){
     .header-text {
-        text-align: left; /* Left align on desktop */
+        text-align: center; /* Left align on desktop */
     }
 
     .header-text h1 {
-        text-align: left; /* Left align on desktop */
+        text-align: center; /* Left align on desktop */
     }
 
   .intro-content {

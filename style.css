@@ -321,11 +321,6 @@ nav .fa-solid{
 .header-text h1 {
     font-size: 30px; /* Adjust the font size as needed */
     text-align: center; /* Center-align the text block */
-}
-
-.header-text h1 {
-    font-size: 30px; /* Adjust the font size as needed */
-    text-align: center; /* Center-align the text block */
     line-height: normal; /* Reset line height */
 }
 
@@ -334,6 +329,11 @@ nav .fa-solid{
     text-align: center; /* Center-align the span text */
     margin: 0 5px; /* Add small margin to separate the texts */
     font-size: 50px; /* Adjust span font size */
+}
+
+.header-text p {
+    font-size: 15px; /* Adjust font size */
+    text-align: center; /* Center-align the paragraph */
 }
 @media only screen and (max-width: 600px){
 

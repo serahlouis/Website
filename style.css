@@ -328,9 +328,15 @@ nav .fa-solid{
 
 @media only screen and (max-width: 600px){
 
-     .header-text h1 {
+  .header-text h1 {
     font-size: 30px; /* Adjust the font size as needed */
-    text-align: center; /* Center-align the text */
+    text-align: left; /* Left-align the text block */
+  }
+
+  .header-text h1 span {
+    display: block;
+    text-align: center; /* Center-align the span text within the h1 block */
+    margin: 10px auto; /* Center the span horizontally within the h1 block */
   }
     .header-text{
         margin-top: 100%;

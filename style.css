@@ -324,10 +324,9 @@ nav .fa-solid{
 }
 
 .header-text h1 span {
-    display: block;
-    color: #CCCCFF;
-    text-align: center; /* Center-align the span text within the h1 block */
-    margin: 10px auto; /* Center the span horizontally within the h1 block */
+    display: inline-block; /* Ensure both parts of the text are inline */
+    text-align: center; /* Center-align the span text */
+    margin: 0 5px; /* Add small margin to separate the texts */
     font-size: 50px; /* Adjust span font size */
 }
 

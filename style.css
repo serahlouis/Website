@@ -404,12 +404,13 @@ nav .fa-solid{
     }
 
     /* Adjust font sizes for better readability on smaller screens */
-    span {
-        font-size: 20vw; /* 6% of viewport width */
+    /*span {
+        font-size: 20vw; 
     }
 
     p {
-        font-size: 10vw; /* 3% of viewport width */
-    }
+        font-size: 10vw; 
+    } */
+        
 
 }

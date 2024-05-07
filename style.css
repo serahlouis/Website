@@ -81,16 +81,8 @@ nav ul li a:hover::after{
     font-size: 30px; 
     text-wrap: left;
 }
-.header-text h1{
-    width:650px;
-    font-size: 50px; 
-    margin-top: 20px;
-    
-}
-.header-text h1 span{
-    color: #CCCCFF;
-    margin-inline: auto;
-}
+
+
 .center{
     position: relative;
      
@@ -326,6 +318,24 @@ nav .fa-solid{
     max-width: 100%; /* Limit max width of the image */
 }
 
+.header-text h1 {
+    font-size: 30px; /* Adjust the font size as needed */
+    text-align: center; /* Center-align the text block */
+}
+
+.header-text h1 span {
+    display: block;
+    color: #CCCCFF;
+    text-align: center; /* Center-align the span text within the h1 block */
+    margin: 10px auto; /* Center the span horizontally within the h1 block */
+    font-size: 50px; /* Adjust span font size */
+}
+
+.header-text p {
+    font-size: 15px; /* Adjust font size */
+    text-align: center; /* Center-align the paragraph */
+}
+
 @media only screen and (max-width: 600px){
 
 
@@ -350,20 +360,7 @@ nav .fa-solid{
     max-width: 300px; /* Limit image width */
     margin: auto; /* Center horizontally */
   }
-  .header-text {
-    text-align: center; /* Center-align the entire text block */
-  }
 
-  .header-text h1 {
-    font-size: 30px; /* Adjust the font size as needed */
-    text-align: center; /* Center-align the text block */
-  }
-
-  .header-text h1 span {
-    display: inline-block; /* Ensure both parts of the text are inline */
-    text-align: center; /* Center-align the span text */
-    margin: 0 5px; /* Add small margin to separate the texts */
-  }
 
     nav .fa-solid{
         display: block;

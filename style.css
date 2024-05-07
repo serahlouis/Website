@@ -328,6 +328,17 @@ nav .fa-solid{
 
 @media only screen and (max-width: 600px){
 
+
+    .intro-content {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+  }
+
+  .text-content {
+    flex: 1; /* Take remaining space */
+    max-width: 60%; /* Limit text width */
+    text-align: left; /* Left-align text */
+  }
   .header-text h1 {
     font-size: 30px; /* Adjust the font size as needed */
     text-align: left; /* Left-align the text block */
@@ -343,11 +354,7 @@ nav .fa-solid{
         font-size: 16px 
         
     }
-    .header-text{
-        
-        font-size: 30px 
-        
-    }
+
     nav .fa-solid{
         display: block;
         font-size: 25px;
@@ -380,10 +387,7 @@ nav .fa-solid{
     align-items: center; /* Center items vertically */
 }
 
-.text-content {
-    flex: 1; /* Allow text content to grow */
-    padding-right: 50px; /* Add spacing between text and image */
-}
+
 
 
 

@@ -329,31 +329,35 @@ nav .fa-solid{
 @media only screen and (max-width: 600px){
 
 
-    .intro-content {
+ .intro-content {
     display: flex;
-    align-items: flex-start; /* Align items to the top */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    text-align: left; /* Left-align text */
+    flex-wrap: wrap; /* Allow content to wrap */
   }
 
   .text-content {
-    flex: 1; /* Take remaining space */
-    max-width: 60%; /* Limit text width */
-    text-align: left; /* Left-align text */
+    flex: 1; /* Allow text content to grow */
+    max-width: 100%; /* Limit text width */
+    padding-right: 10px; /* Add spacing between text and image */
+    /* Adjust other styles as needed */
   }
+  .header-text {
+    text-align: center; /* Center-align the entire text block */
+  }
+
   .header-text h1 {
     font-size: 30px; /* Adjust the font size as needed */
     text-align: left; /* Left-align the text block */
+    display: inline-block; /* Ensure block-level behavior */
   }
 
   .header-text h1 span {
-    display: block;
-    text-align: center; /* Center-align the span text within the h1 block */
-    margin: 10px auto; /* Center the span horizontally within the h1 block */
+    display: block; /* Make the span a block-level element */
+    margin: 10px auto; /* Center the span horizontally within its parent */
+    text-align: center; /* Center the text within the span */
   }
-    .header-text{
-        margin-top: 100%;
-        font-size: 16px 
-        
-    }
 
     nav .fa-solid{
         display: block;

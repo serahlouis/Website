@@ -319,16 +319,15 @@ nav .fa-solid{
 }
 
 .header-text h1 {
-    font-size: 30px; /* Adjust the font size as needed */
-    text-align: center; /* Center-align the text block */
-    line-height: normal; /* Reset line height */
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.5; /* Adjust line height as needed */
 }
 
 .header-text h1 span {
-    display: inline-block; /* Ensure both parts of the text are inline */
-    text-align: center; /* Center-align the span text */
-    margin: 0 5px; /* Add small margin to separate the texts */
-    font-size: 50px; /* Adjust span font size */
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 50px;
 }
 
 .header-text p {

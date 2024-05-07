@@ -66,12 +66,13 @@ nav ul li a:hover::after{
     width: 100%;
 }
 
-.header-text {
+.header-text{
     width: 100%;
     margin-top: 5%;
-    font-size: 15px;
-    text-align: left; /* Left justify for desktop */
+    font-size: 15px; 
+    text-align: justify; 
     line-break: strict;
+
 }
 
 .header-text p span{
@@ -294,73 +295,48 @@ nav .fa-solid{
     display: none;
 }
 
-.image-container {
-    margin-top: 20px; /* Adjust margin to create space between text and image */
-    text-align: center; /* Center the image horizontally */
+.image-container-full{
+    display: grid;
+    align-items: right; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+.intro-content {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    margin-top: 20px; /* Add margin to separate image from text */
 }
 
-.image-container img {
-    max-width: 100%; /* Ensure the image does not exceed its container */
-    height: auto; /* Maintain aspect ratio */
-    display: inline-block; /* Remove any default inline spacing */
-    margin: 0 auto; /* Center the image horizontally */
+.text-content {
+    flex: 1; /* Take remaining space */
+    max-width: 60%; /* Limit text width */
 }
+
+.image-container {
+    flex-shrink: 0; /* Do not shrink */
+    margin-top: -465px;
+    width: 40%; /* Set image container width */
+    max-width: 400px; /* Increase max width of the image container */
+    margin-left:  650px; /* Adjust spacing between text and image */
+}
+
+.center {
+    width: 100%; /* Ensure image width adjusts */
+    height: auto; /* Allow image height to adjust */
+    max-width: 100%; /* Limit max width of the image */
+}
+
 @media only screen and (max-width: 600px){
 
-
-    .header-text {
-        text-align: center; /* Center the text on small screens */
-        margin: 5% auto; /* Center vertically */
-        padding: 0 10px; /* Add padding for better visibility */
-        width: 100%;
-        font-size: 15px;
-        line-break: strict;
+    .header-text{
+        margin-top: 100%;
+        font-size: 16px 
+        
     }
-
-    .intro-content {
-        display: flex;
-        flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center items horizontally */
-        text-align: center; /* Center text content */
-    }
-
-    .text-content {
-        flex-basis: 100%; /* Set full width for the text content */
-        margin: 10px 0; /* Add margin for spacing */
-    }
-
-    .image-container {
-        flex-basis: 30%; /* Adjust as needed */
-        text-align: center; /* Center the image horizontally */
-        margin-top: 20px; /* Adjust margin to create space between text and image */
-    }
-
-    .image-container img {
-        max-width: 100%; /* Ensure the image does not exceed its container */
-        height: auto; /* Maintain aspect ratio */
-        display: inline-block; /* Remove any default inline spacing */
-        margin: 0 auto; /* Center the image horizontally */
-    }
-
-    .intro-text {
-        text-align: center; /* Keep the text justified on mobile */
-    }
-
-    .header-text p span {
-        font-size: 18px; /* Adjust the font size of span */
-        margin-top: 10px; /* Adjust margin */
-    }
-
-    .header-text p {
-        font-size: 14px; /* Adjust font size of paragraphs */
-        margin-top: 10px; /* Adjust margin */
-    }
-
-    /* Adjustments for other sections as needed */
-
-    /* Optional: Reduce padding or margins for tighter spacing */
-    .container {
-        padding: 10px 5%; /* Adjust as needed */
+    .header-text{
+        
+        font-size: 30px 
+        
     }
     nav .fa-solid{
         display: block;
@@ -389,25 +365,20 @@ nav .fa-solid{
         left: 25px;
         cursor: pointer;
     }
-    .content-container {
-        display: flex;
-        align-items: center; /* Center items vertically */
-    }
+.content-container {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
 
-     
-    .container {
-        width: 100%;
-        padding: 0 10px; 
-    }
+.text-content {
+    flex: 1; /* Allow text content to grow */
+    padding-right: 50px; /* Add spacing between text and image */
+}
 
-   
-    span {
-        font-size: 20vw; 
-    }
 
-    p {
-        font-size: 10vw; 
-    } 
-        
 
+
+
+
+    
 }

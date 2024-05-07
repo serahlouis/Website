@@ -349,14 +349,18 @@ nav .fa-solid{
 
   .header-text h1 {
     font-size: 30px; /* Adjust the font size as needed */
-    text-align: left; /* Left-align the text block */
-    display: inline-block; /* Ensure block-level behavior */
+    text-align: center; /* Center-align the text block */
   }
 
   .header-text h1 span {
     display: block; /* Make the span a block-level element */
     margin: 10px auto; /* Center the span horizontally within its parent */
     text-align: center; /* Center the text within the span */
+  }
+
+  /* Adjust the line height to keep both parts of the text on the same line */
+  .header-text h1 {
+    line-height: 1.2; /* Adjust as needed */
   }
 
     nav .fa-solid{

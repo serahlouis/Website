@@ -331,24 +331,19 @@ nav .fa-solid{
 
   .intro-content {
     display: flex;
-    align-items: center;
-    justify-content: center; /* Center-align items horizontally */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
     text-align: left; /* Align text to the left within the container */
   }
 
   .text-content {
-    flex: 1;
-    max-width: 60%; /* Limit text width */
+    max-width: 80%; /* Limit text width */
     padding-right: 20px; /* Add spacing between text and image */
   }
 
   .image-container {
-    flex-shrink: 0;
-    width: 40%;
-    max-width: 200px; /* Adjust the max-width as needed */
-    margin-left: 20px; /* Adjust spacing between text and image */
+    margin-top: 20px; /* Add spacing between text and image */
   }
-
     
   .header-text {
     text-align: center; /* Center-align the entire text block */

@@ -329,19 +329,18 @@ nav .fa-solid{
 @media only screen and (max-width: 600px){
 
 
-  .intro-content {
+   .intro-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: left;
-    height: 100%;
   }
 
   .text-content {
     width: 80%; /* Adjust as needed */
     max-width: 600px; /* Limit text width */
     padding-right: 20px;
-    margin: 0 auto; /* Center horizontally */
+    margin: 20px auto; /* Center horizontally with top margin */
   }
 
   .image-container {

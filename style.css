@@ -311,8 +311,8 @@ nav .fa-solid{
         text-align: center; /* Center the text on small screens */
         margin: 5% auto; /* Center vertically */
         padding: 0 10px; /* Add padding for better visibility */
-        width: 100%;
-        font-size: 15px;
+        width: 50%;
+        font-size: 5px;
         line-break: strict;
     }
 

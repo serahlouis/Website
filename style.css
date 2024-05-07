@@ -346,6 +346,10 @@ nav .fa-solid{
         text-align: center; /* Left align on desktop */
     }
 
+    .header-text p {
+        text-align: center; /* Center align on mobile */
+    }
+
   .intro-content {
     display: flex;
     flex-direction: column;

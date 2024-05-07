@@ -66,13 +66,34 @@ nav ul li a:hover::after{
     width: 100%;
 }
 
-.header-text{
+.header-text {
     width: 100%;
     margin-top: 5%;
-    font-size: 15px; 
-    text-align: justify; 
+    font-size: 15px;
+    text-align: center; /* Center align for desktop */
     line-break: strict;
+}
 
+.header-text h1 {
+    font-size: 30px;
+    text-align: left; /* Left align for desktop */
+    line-height: 1.5;
+}
+
+.header-text h1 span {
+    font-size: 50px;
+    color: #CCCCFF;
+}
+
+.header-text h1 span::after {
+    
+    display: inline-block;
+    margin: 0 5px; /* Adjust as needed */
+}
+
+.header-text p {
+    font-size: 15px; /* Adjust font size */
+    text-align: center; /* Center-align the paragraph */
 }
 
 .header-text p span{
@@ -318,29 +339,11 @@ nav .fa-solid{
     max-width: 100%; /* Limit max width of the image */
 }
 
-.header-text h1 {
-    font-size: 30px;
-    text-align: center;
-    line-height: 1.5;
-}
 
-.header-text h1 span {
-    font-size: 50px;
-    color: #CCCCFF;
-}
-
-.header-text h1 span::after {
-    
-    display: inline-block;
-    margin: 0 5px; /* Adjust as needed */
-}
-
-.header-text p {
-    font-size: 15px; /* Adjust font size */
-    text-align: center; /* Center-align the paragraph */
-}
 @media only screen and (max-width: 600px){
-
+    .header-text h1 {
+        text-align: center; /* Center align for mobile */
+    }
 
   .intro-content {
     display: flex;

@@ -310,6 +310,7 @@ nav .fa-solid{
 
     .header-textp{
         text-align: center; /* Center the text on small screens */
+        font-size: 15px;
     }
     .header-text {
         text-align: justify; /* Center the text on small screens */

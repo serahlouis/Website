@@ -349,6 +349,9 @@ nav .fa-solid{
     .header-text p {
         text-align: center; /* Center align on mobile */
     }
+    .header-text p span {
+    text-align: center; /* Center align the span */
+    }
 
   .intro-content {
     display: flex;

@@ -307,10 +307,7 @@ nav .fa-solid{
 }
 @media only screen and (max-width: 600px){
 
-    .header-textp{
-        text-align: center; /* Center the text on small screens */
-        font-size: 15px;
-    }
+
     .header-text {
         text-align: center; /* Center the text on small screens */
         margin: 5% auto; /* Center vertically */

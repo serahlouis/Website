@@ -379,12 +379,12 @@ nav .fa-solid{
     margin: auto; /* Center horizontally and vertically */
   }
 
-  .image-container {
-    margin-top: 20px; /* Add spacing between text and image */
-    width: 80%; /* Adjust as needed */
-    max-width: 300px; /* Limit image width */
-    margin: auto; /* Center horizontally */
-  }
+    .image-container {
+        margin-top: 10px; /* Adjust spacing between text and image */
+        width: 80%; /* Adjust width as needed */
+        max-width: 300px; /* Limit image width */
+        margin: auto; /* Center horizontally */
+    }
 
 
     nav .fa-solid{

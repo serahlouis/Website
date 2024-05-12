@@ -338,6 +338,7 @@ nav .fa-solid{
 .header-text p {
     font-size: 15px; /* Keep the font size as per your design */
     text-align: left; /* Align left by default */
+    margin-bottom: 20px; /* Add a consistent bottom margin */
 }
 
 

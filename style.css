@@ -378,12 +378,13 @@ nav .fa-solid{
     padding-right: 20px;
     margin: auto; /* Center horizontally and vertically */
   }
-
     .image-container {
-        margin-top: 10px; /* Adjust spacing between text and image */
-        width: 80%; /* Adjust width as needed */
-        max-width: 300px; /* Limit image width */
-        margin: auto; /* Center horizontally */
+        margin-top: 20px; /* Increase or decrease margin as needed */
+        width: 100%; /* Adjust width as needed */
+        text-align: center; /* Center align the image */
+    }
+    .image-container img {
+        max-width: 100%; /* Ensure image is responsive */
     }
 
 

@@ -335,6 +335,10 @@ nav .fa-solid{
     height: auto; /* Allow image height to adjust */
     max-width: 100%; /* Limit max width of the image */
 }
+.header-text p {
+    font-size: 15px; /* Keep the font size as per your design */
+    text-align: left; /* Align left by default */
+}
 
 
 @media only screen and (max-width: 600px){
@@ -346,8 +350,9 @@ nav .fa-solid{
         text-align: center; /* Left align on desktop */
     }
 
-    .header-text p {
-        text-align: center; /* Center align on mobile */
+  .header-text p {
+        text-align: center; /* Center align paragraphs on mobile */
+        margin-bottom: 20px; /* Add some bottom margin for better spacing */
     }
     .header-text p span {
     text-align: center; /* Center align the span */

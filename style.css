@@ -379,13 +379,14 @@ nav .fa-solid{
     margin: auto; /* Center horizontally and vertically */
   }
     .image-container {
-        margin-top: 20px; /* Increase or decrease margin as needed */
+        margin-top: 20px; /* Adjust margin as needed */
         width: 100%; /* Adjust width as needed */
-        text-align: center; /* Center align the image horizontally */
+        display: flex;
+        justify-content: center; /* Horizontally center content */
     }
     .image-container img {
         max-width: 100%; /* Ensure image is responsive */
-        display: inline-block; /* Add this to center the image */
+        width: auto; /* Set width to auto to avoid stretching */
     }
 
 

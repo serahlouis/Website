@@ -381,10 +381,11 @@ nav .fa-solid{
     .image-container {
         margin-top: 20px; /* Increase or decrease margin as needed */
         width: 100%; /* Adjust width as needed */
-        text-align: center; /* Center align the image */
+        text-align: center; /* Center align the image horizontally */
     }
     .image-container img {
         max-width: 100%; /* Ensure image is responsive */
+        display: inline-block; /* Add this to center the image */
     }
 
 

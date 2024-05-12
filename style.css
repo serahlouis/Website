@@ -89,8 +89,11 @@ nav ul li a:hover::after{
     margin-left: 5px; /* Add spacing after the name */
 }
 .header-text p {
-    font-size: 15px; /* Adjust font size */
-    text-align: left; /* Center-align the paragraph */
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 20px; /* Add a consistent bottom margin */
+    margin-top: 0; /* Remove top margin to ensure consistent spacing */
+    line-height: 1.5; /* Ensure consistent line height */
 }
 
 .header-text p span{
@@ -334,11 +337,6 @@ nav .fa-solid{
     width: 100%; /* Ensure image width adjusts */
     height: auto; /* Allow image height to adjust */
     max-width: 100%; /* Limit max width of the image */
-}
-.header-text p {
-    font-size: 15px; /* Keep the font size as per your design */
-    text-align: left; /* Align left by default */
-    margin-bottom: 20px; /* Add a consistent bottom margin */
 }
 
 

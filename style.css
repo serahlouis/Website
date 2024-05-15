@@ -406,9 +406,6 @@ nav .fa-solid{
         left: 25px;
         cursor: pointer;
     }
-    .content-container {
-        display: flex;
-        align-items: center; /* Center items vertically */
-    }
+
    
 }

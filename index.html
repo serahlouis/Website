@@ -49,7 +49,78 @@
     </div>
 </div>
 
-<!-- Remaining sections here... -->
+<!----------cited work--------------->
+<div id="services1" data-tab-content>
+    <div class="container">
+
+        <div class="abouta">
+            <h1>Interviews</h1> 
+                    <br>
+                    <ul> 
+                        <li><a href="https://open.spotify.com/episode/3AslSJOsGU7m5yoXXnoJIO?si=q3OXYqe9Se29wN4_Q-mTQQ", target="_blank">What you might not know about buy now, pay later plans </a> – Stress Test (The Globe and Mail) </li><br>
+                        <li><a href="https://www.utm.utoronto.ca/main-news/utm-student-featured-new-fiction-collection-asian-writers", target="_blank">UTM student featured in new fiction collection by Asian writers </a>– UTM News</li><br>
+                        <li><a href="https://archive.themedium.ca/arts/serah-louis-on-being-a-student-author/", target="_blank">Serah Louis on being a student author </a>– The Medium</li><br>
+                    </ul>
+        </div>
+    </div>
+</div>
+<!---------------contact-->
+<div id="contact1" data-tab-content>
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+            </div>
+            <div class="contact-right">
+                <form name ="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email"required>
+                    <textarea name = "Message" rows = "6" placeholder="Your Message"></textarea>
+                    <button type = "submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span> 
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/serah-louis-229932163/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>  
+                </div>
+            </div>   
+        </div>
+    </div>
+    
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+<!----Google FOrm -->
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzuENLbCsOQbUf7xHg5uqpuD_Nda96PjYpVs6HTH5_WOzHPYCkYTGiR3alkj9PsfFO-/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML = "Message sent successfully!"
+        setTimeout(function(){msg.innerHTML=""},5000)
+        form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
 
 <script>
     var sidemenu = document.getElementById("sidemenu");

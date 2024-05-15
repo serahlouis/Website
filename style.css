@@ -103,6 +103,10 @@ nav ul li a:hover::after{
     text-wrap: left;
 }
 
+.image-container{
+        align-items:right
+}
+
 
 .center{
     position: relative;

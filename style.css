@@ -52,10 +52,10 @@ nav ul li a {
     position: relative;
 }
 
-nav ul li a::after {
-    content: '';
+nav ul li a::after { 
+    content: ''; 
     width: 0;
-    height: 3px;
+    height: 3px; 
     background: #734f96;
     position: absolute;
     left: 0;
@@ -71,7 +71,7 @@ nav ul li a:hover::after {
     width: 100%;
     margin-top: 5%;
     font-size: 15px;
-    text-align: left;
+    text-align: left; /* Left align by default */
     line-break: strict;
 }
 
@@ -85,41 +85,46 @@ nav ul li a:hover::after {
     color: #CCCCFF;
 }
 
+.header-text h1 span::after {
+    margin-left: 5px; /* Add spacing after the name */
+}
+
 .header-text p {
     font-size: 15px;
     text-align: left;
-    margin-bottom: 20px;
-    margin-top: 0;
-    line-height: 1.5;
+    margin-bottom: 20px; /* Add a consistent bottom margin */
+    margin-top: 0; /* Remove top margin to ensure consistent spacing */
+    line-height: 1.5; /* Ensure consistent line height */
 }
 
 .header-text p span {
     width: 700px;
     margin-top: 5%;
-    font-size: 30px;
+    font-size: 30px; 
+    text-wrap: left;
 }
 
 .image-container {
-    flex-shrink: 0;
-    width: 40%;
-    max-width: 400px;
-    margin-left: 650px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .center {
-    width: 100%;
-    height: auto;
     max-width: 100%;
+    height: auto;
 }
 
-/* Small screens */
+/* Responsive Styles */
 @media only screen and (max-width: 600px) {
     .header-text {
-        text-align: center;
+        text-align: center; /* Center align on mobile */
     }
 
-    .header-text h1, .header-text p, .header-text p span {
-        text-align: center;
+    .header-text h1,
+    .header-text p,
+    .header-text p span {
+        text-align: center; /* Center align on mobile */
     }
 
     .intro-content {
@@ -130,16 +135,7 @@ nav ul li a:hover::after {
     }
 
     .text-content {
-        width: 80%;
-        max-width: 600px;
-        margin: auto;
-    }
-
-    .image-container {
         width: 100%;
-        max-width: 100%;
-        margin-left: 0;
-        margin-top: 20px;
     }
 
     nav .fa-solid {
@@ -162,5 +158,9 @@ nav ul li a:hover::after {
     nav ul li {
         display: block;
         margin: 25px;
+    }
+
+    .image-container {
+        margin-top: 20px;
     }
 }

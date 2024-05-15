@@ -413,5 +413,9 @@ nav .fa-solid{
     .image-container{
         align-items:left
     }
-   
+       .image-container img {
+        max-width: 100%; /* Ensure image responsiveness */
+        width: auto; /* Set width to auto */
+        display: inline-block; /* Display as inline-block */
+    }
 }

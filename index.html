@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Serah Louis Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link  rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
     <script src="https://kit.fontawesome.com/78ed618f74.js" crossorigin="anonymous"></script>
 </head>
@@ -26,22 +26,20 @@
         </nav>
         <div class="header-text">
             <div id="header1" data-tab-content class="active">
-                <h1>Hey there! I'm <span>Serah Louis</span>, <br></h1>
+                <h1>Hey there! I'm<span> Serah Louis</span>, <br></h1>
                 <br>
                 <p><span>a Toronto-based journalist and author.</span></p><br><br>
                 <div class="intro-content">
-                    <div class="text-content">
-                        <p>
-                            In my spare time, I read fantasy novels, bake pies, listen to the Bogfather (read: Hozier) and travel.
-                        </p>
-                        <p>
-                            I hold an Honours Bachelor of Science from the University of Toronto where I completed a double 
-                            major in Biology and Professional Writing and Communications – and wrote the draft of my very first published short story for a course on fantasy literature.
-                        </p>
-                        <p>
-                            Surprisingly, most of my work today centres around personal finance and financial news in US and Canadian markets – but I like to pull inspiration from my background in life sciences when I can.
-                        </p>
-                    </div>
+                    <p>
+                        In my spare time, I read fantasy novels, bake pies, listen to the Bogfather (read: Hozier) and travel.
+                    </p> 
+                    <p>
+                        I hold an Honours Bachelor of Science from the University of Toronto where I completed a double 
+                        major in Biology and Professional Writing and Communications – and wrote the draft of my very first published short story for a course on fantasy literature. 
+                    </p>
+                    <p>
+                        Surprisingly, most of my work today centres around personal finance and financial news in US and Canadian markets – but I like to pull inspiration from my background in life sciences when I can. 
+                    </p>
                 </div>
             </div> 
         </div>
@@ -50,46 +48,17 @@
         </div>
     </div>
 </div>
-<!-- Remaining content sections go here -->
-<script>
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
 
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link");
-        }
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab")
-    }
-</script>
-<script>
-    var sidemeu = document.getElementById("sidemenu");
-    function openmenu(){
-        sidemeu.style.right = "0";
-    }
-    function closemenu(){
-        sidemeu.style.right = "-200px";
-    }
-</script>
-<!-- Google Form -->
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbzuENLbCsOQbUf7xHg5uqpuD_Nda96PjYpVs6HTH5_WOzHPYCkYTGiR3alkj9PsfFO-/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const msg = document.getElementById("msg")
+<!-- Remaining sections here... -->
 
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {msg.innerHTML = "Message sent successfully!"
-        setTimeout(function(){msg.innerHTML=""},5000)
-        form.reset()
-        })
-        .catch(error => console.error('Error!', error.message))
-    })
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
 </script>
 </body>
 </html>

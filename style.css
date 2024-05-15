@@ -406,6 +406,8 @@ nav .fa-solid{
         left: 25px;
         cursor: pointer;
     }
-
+    .image-container{
+        align-items:center
+    }
    
 }

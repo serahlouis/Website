@@ -378,16 +378,6 @@ nav .fa-solid{
     padding-right: 20px;
     margin: auto; /* Center horizontally and vertically */
   }
-    .image-container {
-        margin-top: 20px; /* Adjust margin as needed */
-        text-align: center; /* Center align the content */
-    }
-    .image-container img {
-        max-width: 100%; /* Ensure image is responsive */
-        width: auto; /* Set width to auto to avoid stretching */
-        display: inline-block; /* Ensure image behaves as inline content */
-    }
-
 
     nav .fa-solid{
         display: block;
@@ -416,17 +406,9 @@ nav .fa-solid{
         left: 25px;
         cursor: pointer;
     }
-.content-container {
-    display: flex;
-    align-items: center; /* Center items vertically */
-}
-
-
-
-
-
-
-
-
-    
+    .content-container {
+        display: flex;
+        align-items: center; /* Center items vertically */
+    }
+   
 }

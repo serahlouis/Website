@@ -1,166 +1,160 @@
-* {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', serif;
-    box-sizing: border-box;
-}
-
-[data-tab-content] {
-    display: none;
-}
-
-.active[data-tab-content] {
-    display: block;
-}
-
-body {
-    background: #ffffff;
-    color: #6d6b6b;
-}
-
-#header1 {
-    width: 100%;
-    height: 100vh;
-    background-image: none;
 }
 
 .container {
-    padding: 10px 10%;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
 
 nav {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 0;
 }
 
-.logo {
-    width: 120px;
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
 }
 
 nav ul li {
-    display: inline-block;
-    list-style: none;
-    margin: 10px 20px;
+    margin-right: 20px;
 }
 
 nav ul li a {
-    color: #CCCCFF;
     text-decoration: none;
-    font-size: 18px;
-    position: relative;
+    color: #333;
+    font-weight: bold;
 }
 
-nav ul li a::after { 
-    content: ''; 
-    width: 0;
-    height: 3px; 
-    background: #734f96;
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    transition: 0.5s;
-}
-
-nav ul li a:hover::after {
-    width: 100%;
+.fa-bars, .fa-xmark {
+    display: none;
 }
 
 .header-text {
-    width: 100%;
-    margin-top: 5%;
-    font-size: 15px;
-    text-align: left; /* Left align by default */
-    line-break: strict;
+    text-align: center;
+    padding: 100px 0;
 }
 
 .header-text h1 {
-    font-size: 30px;
-    line-height: 1.5;
-}
-
-.header-text h1 span {
+    margin-bottom: 20px;
     font-size: 50px;
-    color: #CCCCFF;
-}
-
-.header-text h1 span::after {
-    margin-left: 5px; /* Add spacing after the name */
 }
 
 .header-text p {
-    font-size: 15px;
-    text-align: left;
-    margin-bottom: 20px; /* Add a consistent bottom margin */
-    margin-top: 0; /* Remove top margin to ensure consistent spacing */
-    line-height: 1.5; /* Ensure consistent line height */
+    font-size: 20px;
 }
 
-.header-text p span {
-    width: 700px;
-    margin-top: 5%;
-    font-size: 30px; 
-    text-wrap: left;
+.tab-content {
+    display: none;
 }
 
-.image-container {
-    display: flex;
-    justify-content: center;
+.tab-content.active {
+    display: block;
+}
+
+.abouta, .contact-right, .services-right {
+    margin: 40px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.contact-left, .contact-right {
+    width: 45%;
+}
+
+.contact-right {
+    float: right;
+}
+
+.contact-left h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.social-icons {
     margin-top: 20px;
 }
 
-.center {
-    max-width: 100%;
-    height: auto;
+.social-icons a {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    margin-right: 10px;
 }
 
-/* Responsive Styles */
-@media only screen and (max-width: 600px) {
-    .header-text {
-        text-align: center; /* Center align on mobile */
-    }
+.social-icons a:hover {
+    color: #555;
+}
 
-    .header-text h1,
-    .header-text p,
-    .header-text p span {
-        text-align: center; /* Center align on mobile */
-    }
-
-    .intro-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .text-content {
-        width: 100%;
-    }
-
-    nav .fa-solid {
+@media (max-width: 768px) {
+    .fa-bars {
         display: block;
-        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .fa-xmark {
+        display: block;
+        cursor: pointer;
     }
 
     nav ul {
-        background: #734f96;
-        position: fixed;
-        top: 0;
-        right: -200px;
-        width: 200px;
-        height: 100vh;
-        padding-top: 50px;
-        z-index: 2;
-        transition: right 0.5s;
+        display: none;
+        flex-direction: column;
     }
 
-    nav ul li {
-        display: block;
-        margin: 25px;
+    nav ul.active {
+        display: flex;
     }
 
-    .image-container {
-        margin-top: 20px;
+    .header-text {
+        padding: 50px 0;
+    }
+
+    .contact-left, .contact-right {
+        width: 100%;
+        float: none;
     }
 }

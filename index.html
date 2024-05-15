@@ -15,11 +15,11 @@
         <nav>
             <img src="Images/Logo_image_serah.png" class="logo">
             <ul class="tabs" id="sidemenu">
-                <li data-tab-target="#header1" class="active tab"><a href="#header">Home</a></li>
-                <li data-tab-target="#about1" class="tab"><a href="#about">Selected Writing</a></li>
-                <li data-tab-target="#services1" class="tab"><a href="#services">Interviews</a></li>
-                <li data-tab-target="#citedwork1" class="tab"><a href="#portfolio">Selected Citations</a></li>
-                <li data-tab-target="#contact1" class="tab"><a href="#contact">Contact</a></li>
+                <li data-tab-target="#header1" class="active tab"><a href="#header" onclick="showImage()">Home</a></li>
+                <li data-tab-target="#about1" class="tab"><a href="#about" onclick="hideImage()">Selected Writing</a></li>
+                <li data-tab-target="#services1" class="tab"><a href="#services" onclick="hideImage()">Interviews</a></li>
+                <li data-tab-target="#citedwork1" class="tab"><a href="#portfolio" onclick="hideImage()">Selected Citations</a></li>
+                <li data-tab-target="#contact1" class="tab"><a href="#contact" onclick="hideImage()">Contact</a></li>
                 <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
             </ul>
             <i class="fa-solid fa-bars" onclick="openmenu()"></i>
@@ -41,15 +41,27 @@
                         Surprisingly, most of my work today centres around personal finance and financial news in US and Canadian markets – but I like to pull inspiration from my background in life sciences when I can. 
                     </p>
                 </div>
-            </div> 
+            </div>
         </div>
         <div class="image-container">
-            <img src="Images/PHOTO_MAIN.jpg" alt="feather" class="center">
+            <img src="Images/PHOTO_MAIN.jpg" alt="feather" class="center" id="mainImage">
         </div>
     </div>
 </div>
 
-<!-- Remaining sections here... -->
+<!-- Add content for the other sections here -->
+<div id="about1" data-tab-content>
+    <!-- Content for Selected Writing -->
+</div>
+<div id="services1" data-tab-content>
+    <!-- Content for Interviews -->
+</div>
+<div id="citedwork1" data-tab-content>
+    <!-- Content for Selected Citations -->
+</div>
+<div id="contact1" data-tab-content>
+    <!-- Content for Contact -->
+</div>
 
 <script>
     var sidemenu = document.getElementById("sidemenu");
@@ -58,6 +70,14 @@
     }
     function closemenu() {
         sidemenu.style.right = "-200px";
+    }
+
+    function showImage() {
+        document.getElementById('mainImage').style.display = 'block';
+    }
+
+    function hideImage() {
+        document.getElementById('mainImage').style.display = 'none';
     }
 </script>
 </body>

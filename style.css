@@ -238,11 +238,6 @@ nav .fa-solid{
         width: 100%;
     }
 
-    nav .fa-solid {
-        display: block;
-        font-size: 25px;
-    }
-
     nav ul {
         background: #734f96;
         position: fixed;

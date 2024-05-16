@@ -111,7 +111,7 @@ nav ul li a:hover::after {
     width: 700px;
     margin-top: 5%;
     font-size: 30px; 
-    text-wrap: left;
+    
 }
 
 .image-container {

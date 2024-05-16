@@ -208,6 +208,10 @@ nav .fa-solid{
     max-width: 60%; /* Limit text width */
 }
 
+.fa-solid.fa-bars {
+    display: none;
+}
+
 
 
 
@@ -221,6 +225,11 @@ nav .fa-solid{
     .header-text p,
     .header-text p span {
         text-align: center; /* Center align on mobile */
+    }
+
+        .fa-solid.fa-bars {
+        display: block;
+        font-size: 25px;
     }
 
     .intro-content {

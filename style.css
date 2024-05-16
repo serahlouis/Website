@@ -38,7 +38,10 @@ nav {
 .logo {
     width: 120px;
 }
-
+.abouta  a
+{
+    color: #CCCCFF;
+}
 nav ul li {
     display: inline-block;
     list-style: none;

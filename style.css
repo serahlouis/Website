@@ -170,9 +170,10 @@ form input, form textarea{
 
 }
 form .btn2{
-    padding: 14px 60px;
+    padding: 18px 60px;
     font-size: 18px;
     margin-top: 20px;
+    margin-bottom: 20px;
     cursor: pointer;
 }
 

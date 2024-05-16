@@ -66,13 +66,7 @@ nav ul li a::after {
 nav ul li a:hover::after {
     width: 100%;
 }
-nav .fa-solid{
-    display: none;
-}
-nav .fa-regular{
-    display: none;
-    color: #CCCCFF;
-}
+
 .header-text {
     width: 100%;
     margin-top: 5%;
@@ -115,7 +109,7 @@ nav .fa-regular{
 }
 
 .center {
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -149,7 +143,13 @@ nav .fa-regular{
         align-items: center;
         text-align: center;
     }
-
+    nav .fa-solid{
+    display: none;
+    }
+    nav .fa-regular{
+    display: none;
+    color: #CCCCFF;
+    }
     .text-content {
         width: 100%;
     }

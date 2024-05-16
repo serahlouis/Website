@@ -182,6 +182,29 @@ form .btn2{
     display: block;
 }
 
+/*for small screen */
+nav .fa-solid{
+    display: none;
+}
+
+.image-container-full{
+    display: grid;
+    align-items: right; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+.intro-content {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    margin-top: 20px; /* Add margin to separate image from text */
+}
+
+.text-content {
+    flex: 1; /* Take remaining space */
+    max-width: 60%; /* Limit text width */
+}
+
+
 
 
 /* Responsive Styles */

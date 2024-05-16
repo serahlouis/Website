@@ -129,6 +129,7 @@ nav .fa-solid{
 }
 nav .fa-regular{
     display: none;
+    color: #CCCCFF;
 }
 /* Responsive Styles */
 @media only screen and (max-width: 600px) {

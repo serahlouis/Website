@@ -187,8 +187,9 @@ form .btn2{
 }
 
 /*for small screen */
-nav .fa-solid{
+nav .fa-regular{
     display: none;
+    color: #CCCCFF;
 }
 
 .image-container-full{

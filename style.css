@@ -116,8 +116,9 @@ nav ul li a:hover::after {
 
 .image-container {
     display: flex;
-    justify-content: center;
-    margin-top: 20px;
+    justify-content: left;
+    margin-top: 40px;
+    
 }
 
 .center {

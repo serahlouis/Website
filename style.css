@@ -23,13 +23,7 @@ body {
     height: 100vh;
     background-image: none;
 }
-.header-text h1,
-.header-text p,
-.header-text p span {
-        
-        text-align: left; /* Center align on mobile */
-        align-items: left;
-    }
+
 .container {
     padding: 10px 10%;
 }

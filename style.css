@@ -122,7 +122,7 @@ nav ul li a:hover::after {
 }
 
 .center {
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
 }
 /*Contact-------------------------------------*/

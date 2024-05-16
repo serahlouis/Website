@@ -103,8 +103,8 @@ nav ul li a:hover::after {
 }
 
 .image-container {
-    display: flex;
-    justify-content: center;
+    /* Remove display: flex; */
+    /* justify-content: center; */
     margin-top: 20px;
 }
 
@@ -115,13 +115,14 @@ nav ul li a:hover::after {
 
 .intro-content {
     display: flex;
-    align-items: flex-start; /* Align items to the top */
-    margin-top: 20px; /* Add margin to separate image from text */
+    align-items: flex-start;
+    justify-content: space-between; /* Add this line to distribute space between the text and image */
+    margin-top: 20px;
 }
 
 .text-content {
-    flex: 1; /* Take remaining space */
-    max-width: 60%; /* Limit text width */
+    flex: 1;
+    max-width: 60%;
 }
 nav .fa-solid{
     display: none;

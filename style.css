@@ -109,7 +109,7 @@ nav ul li a:hover::after {
 }
 
 .center {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
 }
 

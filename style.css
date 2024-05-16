@@ -93,7 +93,7 @@ nav ul li a:hover::after {
 }
 
 .header-text p {
-    width: auto;
+    width: 200px;
     font-size: 15px;
     text-align: left;
     margin-bottom: 20px; /* Add a consistent bottom margin */

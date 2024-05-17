@@ -74,7 +74,7 @@ nav ul li a:hover::after {
     width: 100%;
     margin-top: 5%;
     font-size: 15px;
-    text-align: left; /* Left align by default */
+    text-align: center; /* Left align by default */
     line-break: strict;
 }
 

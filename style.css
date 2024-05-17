@@ -74,7 +74,7 @@ nav ul li a:hover::after {
     width: 100%;
     margin-top: 5%;
     font-size: 15px;
-    text-align: center; /* Left align by default */
+    text-align: left; /* Left align by default */
     line-break: strict;
 }
 
@@ -93,7 +93,6 @@ nav ul li a:hover::after {
 }
 
 .header-text p {
-    width: 200px;
     font-size: 15px;
     text-align: left;
     margin-bottom: 20px; /* Add a consistent bottom margin */
@@ -105,18 +104,17 @@ nav ul li a:hover::after {
     width: 700px;
     margin-top: 5%;
     font-size: 30px; 
-    
+    text-wrap: left;
 }
 
 .image-container {
     display: flex;
-    justify-content: left;
-    margin-top: 40px;
-    
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .center {
-    max-width: 70%;
+    max-width: 100%;
     height: auto;
 }
 /*Contact-------------------------------------*/
@@ -202,7 +200,7 @@ nav .fa-solid{
 .intro-content {
     display: flex;
     align-items: flex-start; /* Align items to the top */
-    margin-top: 100px; /* Add margin to separate image from text */
+    margin-top: 20px; /* Add margin to separate image from text */
 }
 
 .text-content {
@@ -222,14 +220,12 @@ nav .fa-solid{
     .header-text h1,
     .header-text p,
     .header-text p span {
-        
         text-align: center; /* Center align on mobile */
-        
     }
 
     .intro-content {
         display: flex;
-        /*flex-direction: column;*/
+        flex-direction: column;
         align-items: center;
         text-align: center;
     }
@@ -241,7 +237,6 @@ nav .fa-solid{
     nav .fa-solid {
         display: block;
         font-size: 25px;
-        color: #CCCCFF;
     }
 
     nav ul {
@@ -262,6 +257,6 @@ nav .fa-solid{
     }
 
     .image-container {
-        margin-top: 40px;
+        margin-top: 20px;
     }
 }
